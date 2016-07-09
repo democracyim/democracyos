@@ -377,6 +377,7 @@
   "validators.invalid.author": "Invalid author",
   "validators.invalid.email": "Invalid email address",
   "validators.invalid.firstname": "Invalid firstname",
+  "validators.invalid.postcode": "Invalid postcode",
   "validators.invalid.forum": "Invalid name",
   "validators.invalid.lastname": "Invalid lastname",
   "validators.invalid.number": "Invalid number",
