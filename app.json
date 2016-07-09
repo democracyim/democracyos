@@ -1,21 +1,19 @@
 {
-  "name": "DemocracyOS",
+  "name": "Democracy.im",
   "description": "An online space for voting on political proposals. The software aims to stimulate better arguments and come to better rulings",
   "keywords": [
     "democracy",
     "democracyos",
     "liquid democracy",
-    "partido de la red",
-    "democracia en red",
     "net democracy",
     "net party",
     "online democracy",
     "web democracy",
     "change the tool"
   ],
-  "author": "Democracia en Red <speak@democracyos.org>",
-  "website": "https://democracyos.org/",
-  "repository": "https://github.com/DemocracyOS/app",
+  "author": "Democracy.im <shinyn@democracy.im>",
+  "website": "https://vote.democracy.im/",
+  "repository": "https://github.com/democracyim/democracyos",
   "logo": "https://cldup.com/guAAqPM85t.png",
   "addons": [
     "mongolab:sandbox",
