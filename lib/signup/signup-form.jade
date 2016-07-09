@@ -18,12 +18,15 @@
         label #{t('signup.your-lastname')}
         input.form-control(type='text', id='lastName', name='lastName', tabindex=3, placeholder=t('signup.lastname'), validate='required lastname')
       .form-group
+        label #{t('signup.your-postcode')}
+        input.form-control(type='text', id='postCode', name='postCode', tabindex=4, placeholder=t('signup.postcode'), validate='required postcode')
+      .form-group
         label= t('password')
-        input.form-control(type='password', name='password', tabindex=4, placeholder=t('password'), validate='required min-length:6')
+        input.form-control(type='password', name='password', tabindex=5, placeholder=t('password'), validate='required min-length:6')
       .form-group
         label= t('signup.retype-password')
-        input.form-control(type='password', name='re_password', tabindex=5, placeholder=t('password.repeat'), validate='required same:password')
-      .form-group: button.btn.btn-success.btn-block.btn-lg(tabindex=6)=t('signup.now')
+        input.form-control(type='password', name='re_password', tabindex=6, placeholder=t('password.repeat'), validate='required same:password')
+      .form-group: button.btn.btn-success.btn-block.btn-lg(tabindex=7)=t('signup.now')
       .form-group
         - var tos = config.termsOfService;
         - var pp = config.privacyPolicy;
