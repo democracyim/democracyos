@@ -352,6 +352,7 @@
   "signup.go-to": "Go to",
   "signup.lastname": "Lastname",
   "signup.postcode": "Postcode",
+  "signup.electoralnumber": "Electoral Number",
   "signup.now": "Signup now!",
   "signup.now-can-vote": "You can now argue and vote on bills!",
   "signup.received": "Your sign up data was received. We sent you an email so you can validate your email address.",
